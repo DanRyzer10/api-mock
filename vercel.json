@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "outputDirectory": ".next",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "routes": [
+    {
+      "src": "/api/v1/send",
+      "methods": ["POST"],
+      "dest": "/api/v1/send"
+    }
+  ]
+}
